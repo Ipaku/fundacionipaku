@@ -1,0 +1,49 @@
+.principal {
+  display: grid;
+  grid-gap: 2rem;
+}
+
+.introduccion,
+.contacto {
+  padding: 2rem;
+}
+
+.introduccion {
+  background: var(--amarillo);
+  border-radius: 7px;
+  box-shadow: var(--shadow);
+}
+
+.introduccion h1{
+  text-align: center;
+}
+
+.introduccion p {
+  margin: 1rem 0;
+}
+
+.contacto li{
+  list-style: none;
+  margin: 1rem 0;
+}
+
+@media screen and (min-width: 600px){
+  .principal{
+    justify-content: center;
+  }
+  .introduccion,
+.contacto {
+  width: 70vw;
+}
+}
+
+@media screen and (min-width: 992px){
+  .introduccion,
+.contacto {
+  width: 50vw;
+}
+
+.contacto{
+  text-align: center;
+}
+}

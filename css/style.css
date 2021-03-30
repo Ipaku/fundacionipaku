@@ -1,0 +1,11 @@
+---
+---
+{% include css/variables.css %}
+
+{% include css/universales.css %}
+
+{% include css/header.css %}
+
+{% include css/principal.css %}
+
+{% include css/footer.css %}

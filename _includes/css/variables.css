@@ -1,0 +1,22 @@
+:root {
+
+  /*** COLORES ***/
+  /* rgb */
+  --verde: #27873f;
+  --naranja: #f5a41d;
+  --amarillo: #f9e920;
+  --negro: #000802;
+  --shadow: 0 2px 5px rgba(28, 29, 33, 0.3);
+
+  /* hexadecimal */
+  --blanco: #f7f7f7;
+
+  /*** FUENTES ***/
+  --fuenteTitulo: 'MuseoModerno', cursive;
+  --fuenteTexto: 'Lato', sans-serif;
+
+  --sizeH1: 2em;
+  --sizeH2: 1.7em;
+  --sizeH3: 1.5em;
+  --sizeTexto: 18px;
+}

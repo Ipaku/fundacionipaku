@@ -1,0 +1,23 @@
+baseurl: ''
+url: 'https://ipaku.co/'
+name: Ipaku Fundación
+author: Ricardo Paez
+email: ipakufundacion@gmail.com
+whatsapp: https://wa.me/573118598421
+tel: tel:+573118598421
+
+permalink: /:categories/:title/
+
+markdown: kramdown
+
+keep_files: [/img]
+
+compress_html:
+    clippings: []
+    comments: []
+    endings: []
+    ignore:
+    envs: []
+    blanklines: false
+    profile: false
+    startings: []
